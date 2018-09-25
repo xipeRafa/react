@@ -1,0 +1,48 @@
+.Header {
+  text-align: center;
+  background-color: gray;
+  height: 158px;
+  padding: 20px;
+ 
+}
+
+.Logo img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Menu {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+	align-content: center;
+  list-style: none;
+}
+
+
+
+.Menu li a {
+  display: block;
+    color: #333;
+    padding:8px;
+    background-color: aliceblue;
+    text-decoration: none;
+    border: 1px solid;
+}
+
+
+.Menu li a:hover, .Menu li a:focus{  color:gray; }
+.Menu li a:active {box-shadow: inset 0 0 0 1px gray;border:1px solid transparent;}
+
+
+@media screen and (min-width: 650px) {
+  .Menu  {
+    flex-direction: row;
+  }
+}

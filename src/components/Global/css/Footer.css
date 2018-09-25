@@ -1,0 +1,9 @@
+.Footer {
+	position: fixed;
+	width: 100%;
+	height: 7%;
+	top: 93%;
+	text-align: center;
+
+	background-color: whitesmoke;
+}

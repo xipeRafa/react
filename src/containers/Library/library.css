@@ -1,0 +1,16 @@
+a{
+    list-style: none;
+    text-decoration: blink;
+    color:red;
+}
+a:hover{
+    color:green;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 10px;
+  
+  
+}

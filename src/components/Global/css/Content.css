@@ -1,0 +1,12 @@
+.Content {
+	margin: 0 auto;
+	width: 90%;
+    height: 2000px;
+}
+
+
+@media screen and (max-width: 650px) {
+	.Content  {
+	  margin-top: 280px;
+	}
+  }

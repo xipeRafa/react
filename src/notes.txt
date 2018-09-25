@@ -1,0 +1,13 @@
+como testear React.js
+minuto 14 video 2
+estudiar que es bind en React.js en codejobs
+
+
+npm add react-router-dom //dependencia para rutas
+
+
+
+video 6 
+Por si alguien se equivoco la línea del minuto 5:55 es:
+
+yarn add --dev babel-cli babel-core babel-loader babel-preset-es2015 babel-preset-react babel-preset-react-hmre babel-preset-stage-0 babel-register css-loader file-loader open style-loader url-loader webpack webpack-dev-middleware webpack-hot-middleware
